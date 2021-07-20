@@ -1,0 +1,12 @@
+pyTelegramBotAPI==3.8.1
+python-telegram-bot==7.0.1
+requests==2.13.0
+lyricsgenius==3.0.1
+spotipy==2.18.0
+YouTubeMusicAPI==1.9
+youtubepy==6.0.2
+yandex-music==1.0.0
+itunesmusicsearch==0.0.1
+VK-Songs==0.1.1
+vk-audio==6.9
+vk-api==11.9.4
