@@ -7,12 +7,12 @@ from yandex_music import Client
 from telebot import types
 import itunesmusicsearch
 
-vk = vk_audio.VkAudio(login='+7(969) 969-5412', password='omopur97')  # ВК авторизация
+vk = vk_audio.VkAudio(login='логин вк', password='пароль вк')  # ВК авторизация
 #client = Client()  # Клиент Яндекс.Музыки
-bot = telebot.TeleBot('1763338570:AAH-6CSF7YSeBRu43b-rey2cHFwiYGeXC9I')  # API бота
-genius = lyricsgenius.Genius('9bDm8DpQlsRIZ7TKG76or_AuR_Y0Fkx1g5tjL5tzmG0lgKaSTF6iOT8cjVpL65Qn')  # Api Genius
+bot = telebot.TeleBot('токен бота')  # API бота
+genius = lyricsgenius.Genius('токен genius')  # Api Genius
 spotify = spotipy.Spotify(  # API Spotify
-    auth_manager=SpotifyClientCredentials("614ac917f8fc4ac1b5d9ad1d4732b757", "805b79bb63d44b779e6052e0df2a5efa"))
+    auth_manager=SpotifyClientCredentials("spotify", "token"))
 
 
 class User:
